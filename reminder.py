@@ -25,10 +25,10 @@ logging.basicConfig(filename='fund_sentinel.log', format='%(asctime)s:%(levelnam
 header = {"User-Agent": UserAgent().chrome}
 
 mail_host = "smtp.163.com"  # SMTP服务器
-mail_user = "13786166582@163.com"
-mail_pass = "wangTAO321"
-sender = "13786166582@163.com"
-receivers = ["13786166582@163.com"]
+mail_user = ""
+mail_pass = ""
+sender = ""
+receivers = [""]
 title = '基金哨兵'
 
 
